@@ -1,0 +1,38 @@
+body {
+    background-color:aquamarine;
+}
+
+h1{
+    color: black;
+    font-family: sans-serif; padding-top: 100px;
+    font-size: 50px;
+}
+h2{
+    color: black;
+}
+
+.div1{
+    display:flex; 
+    justify-content: center; 
+    margin-top: 10vh;
+}
+
+.form1{
+    background-color: whitesmoke; 
+    padding: 80px; 
+    border-radius: 200px;
+}
+
+label{
+    font-family: sans-serif;
+}
+input{
+    border-radius: 20px ;border: none; background-color: rgb(213, 246, 250); padding: 5px 10px 5px 10px;
+}
+.btn1{
+    padding: 5px 15px 5px 15px;
+    border: none; border-radius: 20px;
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    font-family:sans-serif;
+}
