@@ -9,9 +9,9 @@ router.get('/', (req,res) => {
 router.get('/search', (req,res) => {
     
 const key = 'AIzaSyBWycLnfmLyqDtuHq2TzKMmgskBkXpMtds'
-const origins = req.query.origin
-const destination = req.query.destination
-const url = 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=' + origins + '&destinations=' + destination + '&key=' + key;
+const origin = req.query.value1
+const destination = req.query.value2
+const url = 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=' + origin + '&destinations=' + destination + '&key=' + key;
 
 request
     (
